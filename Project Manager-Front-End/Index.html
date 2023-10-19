@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="Login.css">
+    <title>Login - Sistema de Gerenciamento de Projetos</title>
+</head>
+<body>
+    <header>
+        <div class="logo">Sistema de Projetos</div>
+        <nav>
+            <a href="login.html" class="active">Login</a>
+            <a href="registro.html">Registro</a>
+        </nav>
+    </header>
+    <main>
+        <div class="login-container">
+            <h1>Login</h1>
+            <form>
+                <div class="input-container">
+                    <label for="username">Usuário ou E-mail</label>
+                    <input type="text" id="username" name="username" required>
+                </div>
+                <div class="input-container">
+                    <label for="password">Senha</label>
+                    <input type="password" id="password" name="password" required>
+                </div>
+                <div class="checkbox">
+                    <input type="checkbox" id="remember-me" name="remember-me">
+                    <label for="remember-me">Manter Conectado</label>
+                </div>
+                <button type="submit">Login</button>
+            </form>
+        </div>
+    </main>
+    <footer>
+        <div class="footer-links">
+            <a href="#">Política de Privacidade</a>
+            <a href="#">Termos de Serviço</a>
+        </div>
+    </footer>
+</body>
+</html>
